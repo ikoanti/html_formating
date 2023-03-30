@@ -20,3 +20,4 @@ function add_more_html_formatting_options( $init ) {
 }
 
 add_filter( 'tiny_mce_before_init', 'add_more_html_formatting_options' );
+?>
