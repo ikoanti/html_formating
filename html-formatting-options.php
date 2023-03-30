@@ -15,7 +15,7 @@ function add_html_text_formatting_options() {
 }
 
 function register_html_text_formatting_buttons($buttons) {
-    array_push($buttons, 'bold', 'italic', 'underline', 'strikethrough', 'bullist', 'numlist', 'blockquote', 'hr', 'alignleft', 'aligncenter', 'alignright', 'link', 'unlink', 'sub', 'sup');
+    array_push($buttons, 'underline', 'unlink', 'sub', 'sup');
     return $buttons;
 }
 
