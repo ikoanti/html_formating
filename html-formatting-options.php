@@ -5,6 +5,7 @@
  * Version: 1.0
  * Author: Irakli Antidze
  * Author URI: https://www.irakli.life
+ * License: CC0 1.0 Universal
  */
 
 add_action('admin_init', 'add_html_text_formatting_options');
