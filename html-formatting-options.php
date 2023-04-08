@@ -9,6 +9,10 @@
  */
 
 add_action('admin_init', 'add_html_text_formatting_options');
+
+/**
+ * Add filters to the "mce_buttons" and "mce_external_plugins" hooks.
+ */
 function add_html_text_formatting_options() {
     add_filter('mce_buttons', 'register_html_text_formatting_buttons');
     add_filter('mce_external_plugins', 'register_html_text_formatting_plugins');
