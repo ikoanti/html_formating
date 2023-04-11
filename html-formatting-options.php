@@ -22,7 +22,7 @@ function register_html_text_formatting_buttons($buttons) {
     return $buttons;
 }
 
-//Register the "htmltextformatting.js" file as a plugin for the TinyMCE editor. 
+//Register the "htmltextformatting.js" file as a plugin for the Classic Editor. 
 function register_html_text_formatting_plugins($plugins) {
     $plugins['htmltextformatting'] = plugins_url('/htmltextformatting.js', __FILE__);
     return $plugins;
